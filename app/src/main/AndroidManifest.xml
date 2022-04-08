@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idarmawan.InputDataMahasiswa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeTwo">
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.DetailDataActivity"
+            android:label="Detail Data"
+            android:parentActivityName="com.idarmawan.InputDataMahasiswa.DetailDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.UpdateDataActivity"
+            android:label="Update Data"
+            android:parentActivityName="com.idarmawan.InputDataMahasiswa.UpdateDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.InformasiActivity"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="com.idarmawan.InputDataMahasiswa.InformasiActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.InputDataActivity"
+            android:label="Input Data"
+            android:parentActivityName="com.idarmawan.InputDataMahasiswa.InputDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.DataMahasiswaActivity"
+            android:label="Data Mahasiswa"
+            android:parentActivityName="com.idarmawan.InputDataMahasiswa.DataMahasiswaActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.idarmawan.InputDataMahasiswa.SplashScreenActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.idarmawan.InputDataMahasiswa.MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
